@@ -1,5 +1,6 @@
 # Ultimate Code Reference - Complied Computer Science Notes
 
+A complied web documentation site of notes on various computer science languages and concepts
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation

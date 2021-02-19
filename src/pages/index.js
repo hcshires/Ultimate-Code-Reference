@@ -8,32 +8,35 @@ import styles from "./styles.module.css";
 
 const features = [
 	{
-		title: "Easy to Use",
-		imageUrl: "img/undraw_docusaurus_mountain.svg",
+		title: "Cornucopia of Computer Science",
+		imageUrl: "img/languages.png",
 		description: (
 			<>
-				Docusaurus was designed from the ground up to be easily installed and used to get your website up and running
-				quickly.
+				From programming languages, to computer networking, to other advanced concepts and skills, have quick, easy
+				access to abundant notes, references, and resources on it all.
 			</>
 		),
 	},
 	{
-		title: "Focus on What Matters",
-		imageUrl: "img/undraw_docusaurus_tree.svg",
+		title: "Open and Free to All, Always",
+		imageUrl: "",
 		description: (
 			<>
-				Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the{" "}
-				<code>docs</code> directory.
+				The internet and Computer Science is free, so this should be to. Access all resources found here anytime,
+				anywhere and feel free to send me feedback if this site helped you.
 			</>
 		),
 	},
 	{
-		title: "Powered by React",
-		imageUrl: "img/undraw_docusaurus_react.svg",
+		title: "Contribute to the Cause",
+		imageUrl: "",
 		description: (
 			<>
-				Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same
-				header and footer.
+				This reference is ultimate already, but contributions to grow its reach are even better! Contribute information
+				to any documentation or resource stored here on my{" "}
+				<a href="https://github.com/hcshires/Ultimate-Code-Reference" target="_blank">
+					GitHub repository.
+				</a>
 			</>
 		),
 	},
@@ -58,7 +61,7 @@ function Home() {
 	const context = useDocusaurusContext();
 	const { siteConfig = {} } = context;
 	return (
-		<Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+		<Layout title={siteConfig.title} description="Description will go into a meta tag in <head />">
 			<header className={clsx("hero hero--primary", styles.heroBanner)}>
 				<div className="container">
 					<h1 className="hero__title">{siteConfig.title}</h1>

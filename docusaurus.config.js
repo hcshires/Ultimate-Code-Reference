@@ -41,7 +41,7 @@ module.exports = {
 						},
 						{
 							label: "Computer Networking",
-							to: "docs/computer-networking/",
+							to: "docs/",
 						},
 					],
 				},

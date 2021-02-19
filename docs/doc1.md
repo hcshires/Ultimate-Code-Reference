@@ -1,7 +1,7 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+id: cn-1
+title: Computer Networking 1
+sidebar_label: Computer Networking 1
 slug: /
 ---
 
